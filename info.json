@@ -1,10 +1,16 @@
 {
-  "name": "alterae_bigger-cargo-wagons",
-  "version": "1.1.2",
-  "factorio_version": "1.1",
-  "title": "alterae's Bigger Cargo Wagons",
-  "author": "alterae",
+  "name": "bigger-cargo-wagons-updated",
+  "version": "1.1.3",
+  "factorio_version": "2.1",
+  "title": "alterae's Bigger Cargo Wagons: Updated",
+  "author": "alterae; johnmart19 / FactorioMods (Factorio 2.1 compatibility)",
   "contact": "alterae@pm.me",
-  "dependencies": ["base"],
-  "description": "Increases the capacity of cargo wagons to be equal to three steel chests."
+  "dependencies": [
+    "base >= 2.1.24",
+    "! alterae_bigger-cargo-wagons"
+  ],
+  "description": "Factorio 2.1 compatibility port with native legacy save ownership migration. Increases the capacity of cargo wagons to be equal to three steel chests.",
+  "migrates_from": [
+    "alterae_bigger-cargo-wagons"
+  ]
 }
